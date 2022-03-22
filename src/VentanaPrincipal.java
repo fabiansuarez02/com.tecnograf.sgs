@@ -5,5 +5,6 @@ public class VentanaPrincipal extends JFrame {
         setSize(500, 400);
         setTitle("Ventana Principal");
         setVisible(true);
+        setBackground("#FFFFFF");
     }
 }
