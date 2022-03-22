@@ -2,6 +2,10 @@ import java.sql.*;
 
 public class App {
     public static void main(String[] args) throws Exception {
+        
+        VentanaPrincipal miVentanaPrincipal;
+        miVentanaPrincipal=new VentanaPrincipal();
+        
         System.out.println("Hello, World!");
         
         String databaseURL = "jdbc:ucanaccess://C://Codigo//DBSGS//SGS_DB.mdb";
